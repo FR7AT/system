@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Terms of Service for OP System Discord Bot">
+    <meta name="description" content="OP System Discord Bot to your server.">
+    <meta property="og:image" content="https://i.imgur.com/ZYvqili.png">
     <link rel="shortcut icon" type="image/jpg" href="https://i.imgur.com/1C2lPG8.png">
-    <title>Terms of Service - OP System</title>
+    <title>OP System</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -14,11 +15,14 @@
             background-color: #f4f4f9;
             color: #333;
             line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background: linear-gradient(45deg, #05131f, #3498db);
             color: #fff;
-            padding: 20px 0;
+            padding: 30px 0;
             text-align: center;
         }
         header h1 {
@@ -29,127 +33,84 @@
             font-size: 1.2rem;
         }
         .container {
-            max-width: 900px;
+            flex: 1;
+            max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            text-align: center;
         }
-        .section {
+        .container p {
+            font-size: 1.1rem;
             margin-bottom: 20px;
         }
-        .section h2 {
-            font-size: 1.8rem;
-            color: #05131f;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
+        .features {
+            text-align: left;
+            margin: 20px 0;
         }
-        .section p, .section ul {
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
             margin: 10px 0;
+            padding: 10px;
+            background: #f4f4f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1rem;
+            color: #fff;
+            background: #3498db;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #05131f;
         }
         footer {
-            text-align: center;
-            background: #05131f;
+            background-color: #05131f;
             color: #fff;
+            text-align: center;
             padding: 10px 0;
-            margin-top: 20px;
-        }
-        footer p {
-            margin: 0;
             font-size: 0.9rem;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Terms of Service for OP System</h1>
-    <p>Please read these terms carefully before using OP System.</p>
+    <h1>Invite OP System</h1>
+    <p>Bring the ultimate Discord experience to your server with OP System!</p>
 </header>
 
 <div class="container">
-    <div class="section">
-        <h2>1. Acceptance of Terms</h2>
-        <p>By accessing or using the OP System bot, you agree to comply with and be bound by these Terms of Service. If you do not agree to these terms, you may not use the bot.</p>
-    </div>
-    <div class="section">
-        <h2>2. Description of Service</h2>
-        <p>OP System is designed to enhance your Discord experience by providing a variety of features, including but not limited to:</p>
+    <p>OP System is a powerful and versatile bot designed to elevate your Discord server. With features ranging from moderation to entertainment, it's the perfect companion for your community.</p>
+    
+    <div class="features">
+        <h2>What OP System Can Do:</h2>
         <ul>
-            <li>Automated welcome and farewell messages.</li>
-            <li>Support ticket management.</li>
-            <li>Music and radio streaming services.</li>
-            <li>Moderation tools for server management.</li>
-            <li>Interactive commands to engage server members.</li>
-        </ul>
-        <p>All services are provided "as-is" without any guarantees of uptime, reliability, or functionality.</p>
-    </div>
-    <div class="section">
-        <h2>3. User Responsibilities</h2>
-        <p>Users of OP System are expected to adhere to the following rules:</p>
-        <ul>
-            <li>Do not use the bot for illegal activities or any actions that violate Discord's Community Guidelines or Terms of Service.</li>
-            <li>Ensure proper permissions are granted to OP System for it to function correctly.</li>
-            <li>Do not spam commands or intentionally overload the bot's resources.</li>
+            <li>🎉 **Automated Welcome and Farewell Messages**: Make every new member feel at home.</li>
+            <li>🎵 **Music and Radio Streaming**: High-quality music and radio stations at your fingertips.</li>
+            <li>🔧 **Advanced Moderation Tools**: Keep your server safe with robust moderation features.</li>
+            <li>📩 **Support Ticket System**: Manage user queries efficiently with our ticketing system.</li>
+            <li>🤖 **Custom Commands**: Engage your community with interactive and fun commands.</li>
         </ul>
     </div>
-    <div class="section">
-        <h2>4. Data Collection</h2>
-        <p>OP System may collect and store the following information for functionality purposes:</p>
-        <ul>
-            <li>User IDs for tracking and logging purposes.</li>
-            <li>Server and channel IDs for configuration and operations.</li>
-            <li>Messages or command inputs, which are not stored beyond processing.</li>
-        </ul>
-        <p>No personal or sensitive information is stored or shared with third parties. Please refer to our <a href="https://fr7at.github.io/system/">Privacy Policy</a> for detailed information.</p>
-    </div>
-    <div class="section">
-        <h2>5. Limitation of Liability</h2>
-        <p>The creators of OP System are not liable for any damages or losses resulting from the use of the bot, including but not limited to:</p>
-        <ul>
-            <li>Server outages or disruptions caused by bot operations.</li>
-            <li>Unauthorized use of bot commands or features.</li>
-            <li>Legal issues arising from misuse of the bot by server administrators or members.</li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2>6. Modifications to the Terms</h2>
-        <p>We reserve the right to update these Terms of Service at any time. Changes will be communicated through official channels or the bot's information page. Continued use of OP System after such updates constitutes acceptance of the new terms.</p>
-    </div>
-    <div class="section">
-        <h2>7. Termination of Access</h2>
-        <p>We reserve the right to terminate or suspend access to OP System for any user or server at our discretion, particularly in cases of:</p>
-        <ul>
-            <li>Violations of these Terms of Service.</li>
-            <li>Misuse of OP System for malicious purposes.</li>
-            <li>Reports of abuse from other Discord users or servers.</li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2>8. Support and Contact</h2>
-        <p>If you experience any issues with OP System or have questions about these Terms of Service, please contact us through:</p>
-        <ul>
-            <li>Our website: <a href="https://fr7at.github.io/system/" target="_blank">OP System</a></li>
-            <li>Our Discord support server: <a href="https://www.opal3ab.com/discord" target="_blank">Join Support Server</a></li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2>9. Compliance with Discord Policies</h2>
-        <p>OP System adheres to all policies and guidelines set by Discord. If you believe this bot violates any rules or poses security concerns, please report it to Discord or contact us directly for resolution.</p>
-    </div>
+    
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1201639987330945164&permissions=8&scope=bot%20applications.commands" target="_blank">
+        Invite OP System
+    </a>
 </div>
 
 <footer>
-    <p>© 2024 OP System. All rights reserved. | Designed for compliance with Discord standards.</p>
+    <p>© 2024 OP System. All rights reserved.</p>
 </footer>
 
 </body>
